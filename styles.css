@@ -1,3 +1,37 @@
+html {
+    background-color: salmon;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 h1{
     text-align: center;
+    background-color: darkorchid;
+    color: white;
+    padding: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+#aboutme {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#links {
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+a:active {
+    color: white;
+    background-color: slategray;
+}
+a:visited {
+    color: purple;
+    background-color: darkgoldenrod;
 }
