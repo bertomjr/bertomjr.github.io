@@ -36,3 +36,9 @@ a:visited {
     color: purple;
     background-color: darkgoldenrod;
 }
+
+a:hover {
+    color:darkorange;
+    background-color:chartreuse;
+font-weight: bold;
+}
