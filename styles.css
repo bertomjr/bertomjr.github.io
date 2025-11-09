@@ -1,32 +1,68 @@
 html {
-    background-color: salmon;
-    margin: 20px;
+    background-color: lightgray;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 0%;
+    border: black 5px solid;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h1{
+
+body{
+border: darkgray 5px solid;
+}
+
+header {
+    background-color: grey;
+    border: white 3px solid;
+}
+main {
+background-color:lightslategrey;
+} 
+
+footer {
+
+}
+
+
+h1 {
     text-align: center;
-    background-color: darkorchid;
     color: white;
     padding: 15px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Times New Roman', Times, serif;
     
 }
 
-#aboutme {
-    background-color: lightblue;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-#links {
-    background-color: lightgreen;
-    padding: 10px;
-    border-radius: 5px;
+h2 {
+    text-align: center;
+    border: white 3px solid;
+    font-family:'Times New Roman', Times, serif;
 }
 nav {
     text-align: center;
     font-family: Arial, sans-serif;
-    background-color: lightcyan;
+    background-color: lightblue;
+}
+#hub-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: lightgrey;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#hub-button:hover {
+    background-color: darkgrey;
+    color: white;
+}
+a {
+    color: blue;
+    background-color: lightgrey;
+    text-decoration: none;
 }
 a:active {
     color: white;
@@ -34,11 +70,26 @@ a:active {
 }
 a:visited {
     color: purple;
-    background-color: darkgoldenrod;
+    background-color: darkgray;
 }
 
 a:hover {
-    color:darkorange;
-    background-color:chartreuse;
-font-weight: bold;
+    color: white;
+    background-color: darkblue;
+    font-weight: bold;
+}
+
+#aboutme {
+    border: black 2px solid;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#links nav {
+    padding: 10px;
+    border: black 2px solid;
+    border-radius: 5px;
+    background-color: lightblue;
 }
