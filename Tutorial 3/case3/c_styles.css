@@ -1,0 +1,53 @@
+/*
+   New Perspectives on HTML
+   Tutorial 3
+   Case Problem 1
+
+   ICI Text and Color Styles
+   Author: Roberto Marcillo Jr
+   Date: 25 October 2025
+
+   Filename:         c_styles.css
+   Supporting Files: none
+*/
+
+/*Body styles*/
+body{
+   background-color: black;
+   color: white;
+   font-family: Century Gothic, sans-serif;
+}
+
+/*Header styles*/
+header h1{
+  color: yellow;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 28px;
+  letter-spacing: 20px;
+  text-align: center;
+}
+/*Article styles*/
+article h2{
+  font-size: 24 px;
+  font-weight: normal;
+  letter-spacing: 5px;
+}
+
+article p {
+  text-align: justify;
+}
+
+strong.keyword {
+  color: yellow;
+  font-weight: normal;
+}
+
+/*Footer styles*/
+footer p {
+  text-align: center;
+}
+
+/*Image map styles*/
+img[usemap] {
+   border-width: 0px;
+   }
