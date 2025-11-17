@@ -1,0 +1,8 @@
+{
+  "docker.lsp.telemetry": "error",
+  "dotnetAcquisitionExtension.enableTelemetry": false,
+  "geminicodeassist.enableTelemetry": false,
+  "gitlens.telemetry.enabled": false,
+  "telemetry.editStats.enabled": false,
+  "azurite.disableTelemetry": true
+}
