@@ -5,7 +5,7 @@ The classwork assignments/projects are intended to get increasingly more complex
 
 ## Tutorial 1 - HTML5 Basics
 ## Tutorial 2 - Website Structure (Absolute/Relative Paths, Hyperlinks)
-## Tutorial 3 - CSS3 Basics
+## Tutorial 3 - CSS Basics
 ## Tutorial 4 - CSS Layouts (Grid/Flexbox)
 ## Tutorial 5 - Tables/Columns
 ## Tutorial 6 - Web Forms
