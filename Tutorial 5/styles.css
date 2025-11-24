@@ -82,9 +82,45 @@ h2 {
         align-self: flex-start;
     }
 }
+#courses {
+    display: flex;
+    grid-column: span 3;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    border: black 2px solid;
+    padding: 2%;
+    border-radius: 5px; 
+    h2 {
+        border: white 3px solid;
+        margin-bottom: 2%;
+    }
+
+}
+#course-table{
+    border-collapse: separate;
+    border-spacing: 2px;
+    border: black 2px solid;
+    width: 100%;
+    height: 100%;
+}
+.status {
+    font-style: italic;
+}
+#course-table th, #course-table td {
+    border: black 2px solid;
+    padding: 8px;
+    text-align: center;
+}
+
 #valencia-button {
     display: inline-block;
-    margin-top: 10px;;
+    margin-top: 10px;
     padding: 10px 20px;
     background-color: darkred;
     color: orange;
@@ -99,8 +135,8 @@ h2 {
 }
 
 #hub-button {
-    grid-column: 1 / 2;
-    justify-self: start;;
+    grid-column: 1 / 3;
+    justify-self: start;
     margin-left: 2px;
     padding: 10px;
     background-color: lightgrey;
@@ -145,6 +181,7 @@ a:hover {
     }
     a {
         margin-bottom: 5px;
+        border-bottom: 2px solid black;
     }
 }
 
@@ -153,4 +190,27 @@ a:hover {
         grid-column: 1 / -1; 
         justify-self: center;     
     }
+     main {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    #aboutme,
+    #courses,
+    #links {
+        grid-column: 1 / -1;  /* each spans full width */
+    }
+
+    #hub-button {
+        grid-column: 1 / -1;
+        justify-self: center;
+    }
+    header {
+        margin: 1% 2%;
+    }
+
+    nav {
+        margin: 2% 2%;
+    }
 }
+
