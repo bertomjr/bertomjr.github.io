@@ -213,7 +213,7 @@ a:hover {
     #aboutme,
     #courses,
     #links {
-        grid-column: 1 / -1;  /* each spans full width */
+        grid-column: 1 / -1; 
     }
 
     #hub-button {
@@ -227,5 +227,83 @@ a:hover {
     aside {
         margin: 2% 2%;
     }
+}
+
+.forms {
+    position: relative;
+    border: solid black 2px;
+    margin: 2%;;
+    padding: 2%;
+    grid-column: span 3;
+    background-image: url("vc-logo1024x156.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 200px auto 
+}
+.forms::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.3); 
+    z-index: 0;
+}
+
+.forms > * {
+    position: relative;
+    z-index: 1;
+}
+#practice-form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#practice-form {
+    th {
+        background-color: grey;
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
+
+    th, td {
+        border: 2px solid black;
+        padding: 1px;
+        width: 100%;
+    }
+    td {
+        text-align: left;
+        background-color: white;
+    }
+    textarea {
+        background-color: lightgoldenrodyellow;
+    }
+    button {
+        display: inline-block;
+        margin-top: 10px;
+        margin: 1%;
+        padding: 10px 2%;
+        background-color: darkred;
+        color: orange;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    button:hover {
+        background-color:orange;
+        color: darkred;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .label-text {
+        font-weight: 500;
+    }
+    
+}
+
+#practice-form table {
+    width: 100%;
+}
+#comments {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 

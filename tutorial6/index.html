@@ -64,21 +64,21 @@
           <tbody>
           <tr>
             <td>
-              <label for="first-name">First Name:
+              <label for="first-name"> <span class="label-text">First Name:</span>
                 <input type="text" id="first-name" name="first-name" placeholder="Enter your first name">
               </label>
             </td>
           </tr>
           <tr>
             <td>
-              <label for="last-name">Last Name:
+              <label for="last-name"> <span class="label-text">Last Name:</span>
                 <input type="text" id="last-name" name="last-name" placeholder="Enter your last name">
               </label>
             </td>
           </tr>
           <tr>
             <td>
-              <label for="gender">Gender:
+              <label for="gender"><span class="label-text">Gender:</span>
                 <input type="radio" id="male" name="gender" value="male"> Male
                 <input type="radio" id="female" name="gender" value="female"> Female
                 <input type="radio" id="other" name="gender" value="other"> Other
@@ -87,7 +87,7 @@
           </tr>
           <tr>
             <td>
-              <label for="colors">Choose your color/s:
+              <label for="colors"><span class="label-text">Choose your color/s:</span>
                 <input type="checkbox" id="red" name="colors" value="red"> Red
                 <input type="checkbox" id="white" name="colors" value="white"> White
                 <input type="checkbox" id="blue" name="colors" value="blue"> Blue
@@ -96,7 +96,7 @@
           </tr>
           <tr>
             <td>
-              <label for="sports">Choose your favorite sport:
+              <label for="sports"><span class="label-text">Choose your favorite sport:</span>
                 <select id="sports" name="sports">
                   <option value="soccer">Soccer</option>
                   <option value="basketball">Basketball</option>
@@ -114,27 +114,33 @@
           </tr>
           <tr>
             <td>
-              <label for="comments">What are your thoughts on global warming?:
+              <label for="comments"><span class="label-text">What are your thoughts on global warming?:</span>
                 <textarea id="comments" name="comments" rows="20" cols="50" placeholder="Enter your comments here..."></textarea>
               </label>
             </td>
           </tr>
           <tr>
             <td>
-              <label for="password">Enter your password:
+              <label for="password"><span class="label-text">Enter your password:</span>
                 <input type="password" id="password" name="password" placeholder="Password">
               </label>
             </td>
           </tr>
           <tr>
             <td>
-              <label for="file-upload">Upload a file:
+              <label for="file-upload"><span class="label-text">Upload a file:</span>
                 <input type="file" id="file-upload" name="file-upload">
               </label>
             </td>
           </tr>
           </tbody>
-          <tr><tfoot><button type="submit">Submit</button></tfoot></tr>
+          <tfoot>
+            <tr>
+              <td>
+                <button type="submit">Submit</button>
+              </td>
+            </tr>
+          </tfoot>
         </table>
       </form>
     </section>
