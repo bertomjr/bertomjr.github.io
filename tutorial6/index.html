@@ -60,13 +60,87 @@
     <section class="forms">
       <form id="practice-form">
         <table>
-
+          <tr><th>Practice Form</th></tr>
+          <tbody>
+          <tr>
+            <td>
+              <label for="first-name">First Name:
+                <input type="text" id="first-name" name="first-name" placeholder="Enter your first name">
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="last-name">Last Name:
+                <input type="text" id="last-name" name="last-name" placeholder="Enter your last name">
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="gender">Gender:
+                <input type="radio" id="male" name="gender" value="male"> Male
+                <input type="radio" id="female" name="gender" value="female"> Female
+                <input type="radio" id="other" name="gender" value="other"> Other
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="colors">Choose your color/s:
+                <input type="checkbox" id="red" name="colors" value="red"> Red
+                <input type="checkbox" id="white" name="colors" value="white"> White
+                <input type="checkbox" id="blue" name="colors" value="blue"> Blue
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="sports">Choose your favorite sport:
+                <select id="sports" name="sports">
+                  <option value="soccer">Soccer</option>
+                  <option value="basketball">Basketball</option>
+                  <option value="baseball">Baseball</option>
+                  <option value="tennis">Tennis</option>
+                  <option value="swimming">Swimming</option>
+                  <option value="rugby">Rugby</option>
+                  <option value="cricket">Cricket</option>
+                  <option value="football">Football</option>
+                  <option value="hockey">Hockey</option>
+                  <option value="volleyball">Volleyball</option>
+                </select>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="comments">What are your thoughts on global warming?:
+                <textarea id="comments" name="comments" rows="20" cols="50" placeholder="Enter your comments here..."></textarea>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="password">Enter your password:
+                <input type="password" id="password" name="password" placeholder="Password">
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="file-upload">Upload a file:
+                <input type="file" id="file-upload" name="file-upload">
+              </label>
+            </td>
+          </tr>
+          </tbody>
+          <tr><tfoot><button type="submit">Submit</button></tfoot></tr>
         </table>
       </form>
     </section>
     <br>
     <section id="links">
-      <nav>
+      <aside>
         <h2>Student Resources</h2>
         <ul>
           <li><a href="https://education.github.com/pack" target="_blank">GitHub Student Developer Pack</a></li>
@@ -74,7 +148,7 @@
           <li><a href="https://www.codepath.org" target="_blank">CodePath</a></li>
           <li><a href="https://unity.com/products/unity-student" target="_blank">Unity Student Plan</a></li>
         </ul>
-      </nav>
+      </aside>
     </section>
     <br>
     <a href="../index.html" id="hub-button">Back to Hub</a>

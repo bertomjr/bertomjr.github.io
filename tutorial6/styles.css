@@ -32,7 +32,7 @@ body{
     grid-template-columns: 1fr;
     padding: 10px;
 }
-nav {
+aside {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -194,7 +194,7 @@ a:hover {
         padding-left: 20px;
     }
 }
-#links nav {
+#links aside {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -224,7 +224,7 @@ a:hover {
         margin: 1% 2%;
     }
 
-    nav {
+    aside {
         margin: 2% 2%;
     }
 }
