@@ -12,3 +12,54 @@
 
 */
 
+fieldset {
+   background-color: rgb(245, 245, 255);
+   margin: 15px auto;
+   padding: 5px;
+   width: 90%;
+}
+label {
+   display: block;
+   float: left;
+   clear:left;
+   font-size: 0.9em;
+   width: 100%;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+input, textarea {
+   display: block;
+   float: right;
+   font-size: 0.9em;
+   width: 55%;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+textarea {
+      height: 150px;
+   }
+input:focus, textarea:focus {
+    background-color: rgb(225, 225, 240);
+}
+input:focus:valid {
+   background-color: rgb(225, 240, 225); 
+   background-image: url("go.png");
+   background-repeat: no-repeat; 
+   background-position: right bottom;           
+   background-size: contain;                   
+}
+input:focus:invalid{
+    background-color: rgb(240, 225, 225);   
+    background-image: url("stop.png");      
+    background-repeat: no-repeat;
+    background-position: right bottom;      
+    background-size: contain;                
+}
+button {
+   display: block;
+   clear: both;
+   float: none;
+   width: 200px;
+   height: 30px;
+   margin: 5px auto;
+}
