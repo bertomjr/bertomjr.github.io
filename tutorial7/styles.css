@@ -74,6 +74,7 @@ h2 {
     padding: 10px;
     border-radius: 5px;
     h2 {
+        background-color: lightsalmon;
         border: white 3px solid;
 
     }
@@ -97,6 +98,8 @@ h2 {
     padding: 2%;
     border-radius: 5px; 
     h2 {
+        color: black;
+        background-color: lightsalmon;
         border: white 3px solid;
         margin-bottom: 2%;
     }
@@ -113,9 +116,19 @@ h2 {
     font-style: italic;
 }
 #course-table th, #course-table td {
-    border: black 2px solid;
+    border: whitesmoke 1px solid;
     padding: 8px;
     text-align: center;
+}
+#course-table th {
+    background-color: white;
+    border: solid black 2px;
+}
+#course-table td {
+    background-color: darkslategray;
+    border: solid black 2px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #valencia-button {
@@ -176,6 +189,7 @@ a:hover {
 #links {
     grid-column: span 3;
     h2 {
+        background-color: lightsalmon;
         border: white 3px solid;
         margin-bottom: 2%;
         align-self: center;
@@ -258,7 +272,7 @@ a:hover {
 }
 #practice-form {
     th {
-        background-color: grey;
+        background-color: darkred;
         padding: 10px;
         text-align: center;
         color: white;
