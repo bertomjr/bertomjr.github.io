@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+       Author: Roberto Marcillo Jr
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Roberto's Web Development I Website | Project 6</title>
+</head>
+<body>
+  <header>
+    <h1> I am Roberto Marcillo Jr</h1>
+  </header>
+  <main>
+    <section id="aboutme">
+      <h2>About Me</h2>
+        <p>I am a student at <strong>Valencia College</strong> and I am pursuing an <strong>Associate's in Science degree in Computer Programming and Analysis (Software Development)</strong></p>   
+        <p>Some of my <strong>hobbies</strong> include playing <strong>video games</strong>, practicing <strong>Brazilian Jiu-Jitsu</strong>, and learning about <strong>game development</strong>.</p>
+        <p>I am also artistically inclined <i>somewhat</i>, I enjoy <strong>creative writing</strong> and <strong>making music</strong><sup><i>*when I can*</i></sup></p>
+        <a id="valencia-button"href="https://valenciacollege.edu" target="_blank" >Link to Valencia's website</a>
+    </section>
+    <br>
+    <section id="courses">
+      <h2>Courses Taken</h2>
+        <table id="course-table" border="1">
+          <thead>
+            <tr>
+              <th>Institution</th>
+              <th>Course Name</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Valencia College</td>
+              <td>Introduction to Programming Concepts</td>
+              <td class="status">Completed (Summer 2025)</td>
+            </tr>
+            <tr>
+              <td>Valencia College</td>
+              <td>C Programming</td>
+              <td class="status">In Progress (Fall 2025)</td>
+            </tr>
+            <tr>
+              <td>Valencia College</td>
+              <td>Web Development I</td>
+              <td class="status">In Progress (Fall 2025)</td>
+            </tr>
+            <tr>
+              <td>CodePath</td>
+              <td>WEB101: Introduction to Web Development</td>
+              <td class="status">Completed (Fall 2025)</td>
+            </tr>
+          </tbody>
+        </table>
+    </section>
+    <br>
+    <section class="forms">
+      <form id="practice-form">
+        <table>
+          <tr><th>Practice Form</th></tr>
+          <tbody>
+          <tr>
+            <td>
+              <label for="first-name"> <span class="label-text">First Name:</span>
+                <input type="text" id="first-name" name="first-name" placeholder="Enter your first name">
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="last-name"> <span class="label-text">Last Name:</span>
+                <input type="text" id="last-name" name="last-name" placeholder="Enter your last name">
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="gender"><span class="label-text">Gender:</span>
+                <input type="radio" id="male" name="gender" value="male"> Male
+                <input type="radio" id="female" name="gender" value="female"> Female
+                <input type="radio" id="other" name="gender" value="other"> Other
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="colors"><span class="label-text">Choose your color/s:</span>
+                <input type="checkbox" id="red" name="colors" value="red"> Red
+                <input type="checkbox" id="white" name="colors" value="white"> White
+                <input type="checkbox" id="blue" name="colors" value="blue"> Blue
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="sports"><span class="label-text">Choose your favorite sport:</span>
+                <select id="sports" name="sports">
+                  <option value="soccer">Soccer</option>
+                  <option value="basketball">Basketball</option>
+                  <option value="baseball">Baseball</option>
+                  <option value="tennis">Tennis</option>
+                  <option value="swimming">Swimming</option>
+                  <option value="rugby">Rugby</option>
+                  <option value="cricket">Cricket</option>
+                  <option value="football">Football</option>
+                  <option value="hockey">Hockey</option>
+                  <option value="volleyball">Volleyball</option>
+                </select>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="comments"><span class="label-text">What are your thoughts on global warming?:</span>
+                <textarea id="comments" name="comments" rows="20" cols="50" placeholder="Enter your comments here..."></textarea>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="password"><span class="label-text">Enter your password:</span>
+                <input type="password" id="password" name="password" placeholder="Password">
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="file-upload"><span class="label-text">Upload a file:</span>
+                <input type="file" id="file-upload" name="file-upload">
+              </label>
+            </td>
+          </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>
+                <button type="submit">Submit</button>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </form>
+    </section>
+    <br>
+    <section id="links">
+      <aside>
+        <h2>Student Resources</h2>
+        <ul>
+          <li><a href="https://education.github.com/pack" target="_blank">GitHub Student Developer Pack</a></li>
+          <li><a href="https://www.comptia.org/en-us/academic/student/#overview" target="_blank">CompTIA</a></li>
+          <li><a href="https://www.codepath.org" target="_blank">CodePath</a></li>
+          <li><a href="https://unity.com/products/unity-student" target="_blank">Unity Student Plan</a></li>
+        </ul>
+      </aside>
+    </section>
+    <br>
+    <a href="../index.html" id="hub-button">Back to Hub</a>
+  </main>
+  <footer>
+  </footer>
+  
+</body>
+</html>
