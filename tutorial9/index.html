@@ -1,13 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <!--
        Author: Roberto Marcillo Jr
   -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css" media="screen">
-  <link rel="stylesheet" href="styles-p.css" media="print">
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" media="screen" />
+  <link rel="stylesheet" href="styles-p.css" media="print" />
   <title>Roberto's Web Development I Website | Project 9</title>
 </head>
 <body>
@@ -25,16 +26,16 @@
             src="https://www.youtube.com/embed/kVQGYedfV58"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
+            allowfullscreen="allowfullscreen">
           </iframe>
         </div>
 
-        <a id="valencia-button"href="https://valenciacollege.edu" target="_blank" >Link to Valencia's website</a>
+        <a id="valencia-button" href="https://valenciacollege.edu" target="_blank">Link to Valencia's website</a>
     </section>
-    <br>
+    <br />
     <section id="courses">
       <h2>Courses Taken</h2>
-        <table id="course-table" border="1">
+        <table id="course-table">
           <thead>
             <tr>
               <th>Institution</th>
@@ -66,95 +67,94 @@
           </tbody>
         </table>
     </section>
-    <br>
+    <br />
     <section class="forms">
       <form id="practice-form">
         <table>
-          <tr><th>Practice Form</th></tr>
+          <thead>
+            <tr>
+              <th>Practice Form</th>
+            </tr>
+          </thead>
           <tbody>
-          <tr>
-            <td>
-              <label for="first-name"> <span class="label-text">First Name:</span>
-                <input type="text" id="first-name" name="first-name" placeholder="Enter your first name">
-              </label>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="last-name"> <span class="label-text">Last Name:</span>
-                <input type="text" id="last-name" name="last-name" placeholder="Enter your last name">
-              </label>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="gender"><span class="label-text">Gender:</span>
-                <input type="radio" id="male" name="gender" value="male"> Male
-                <input type="radio" id="female" name="gender" value="female"> Female
-                <input type="radio" id="other" name="gender" value="other"> Other
-              </label>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="colors"><span class="label-text">Choose your color/s:</span>
-                <input type="checkbox" id="red" name="colors" value="red"> Red
-                <input type="checkbox" id="white" name="colors" value="white"> White
-                <input type="checkbox" id="blue" name="colors" value="blue"> Blue
-              </label>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="sports"><span class="label-text">Choose your favorite sport:</span>
-                <select id="sports" name="sports">
-                  <option value="soccer">Soccer</option>
-                  <option value="basketball">Basketball</option>
-                  <option value="baseball">Baseball</option>
-                  <option value="tennis">Tennis</option>
-                  <option value="swimming">Swimming</option>
-                  <option value="rugby">Rugby</option>
-                  <option value="cricket">Cricket</option>
-                  <option value="football">Football</option>
-                  <option value="hockey">Hockey</option>
-                  <option value="volleyball">Volleyball</option>
-                </select>
-              </label>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="comments"><span class="label-text">What are your thoughts on global warming?:</span>
-                <textarea id="comments" name="comments" rows="20" cols="50" placeholder="Enter your comments here..."></textarea>
-              </label>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="password"><span class="label-text">Enter your password:</span>
-                <input type="password" id="password" name="password" placeholder="Password">
-              </label>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="file-upload"><span class="label-text">Upload a file:</span>
-                <input type="file" id="file-upload" name="file-upload">
-              </label>
-            </td>
-          </tr>
-          </tbody>
-          <tfoot>
             <tr>
               <td>
-                <button type="submit">Submit</button>
+                <label for="first-name"><span class="label-text">First Name:</span>
+                  <input type="text" id="first-name" name="first-name" placeholder="Enter your first name"/>
+                </label>
               </td>
             </tr>
+            <tr>
+              <td>
+                <label for="last-name"><span class="label-text">Last Name:</span>
+                  <input type="text" id="last-name" name="last-name" placeholder="Enter your last name"/>
+                </label>
+            </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="label-text">Gender:</span>
+                <label for="male"><input type="radio" id="male" name="gender" value="male" /> Male</label>
+                <label for="female"><input type="radio" id="female" name="gender" value="female" /> Female</label>
+                <label for="other"><input type="radio" id="other" name="gender" value="other" /> Other</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="colors"><span class="label-text">Choose your color/s:</span>
+                  <input type="checkbox" id="red" name="colors" value="red"/> Red
+                  <input type="checkbox" id="white" name="colors" value="white"/> White
+                  <input type="checkbox" id="blue" name="colors" value="blue"/> Blue
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="sports"><span class="label-text">Choose your favorite sport:</span>
+                  <select id="sports" name="sports">
+                    <option value="soccer">Soccer</option>
+                    <option value="basketball">Basketball</option>
+                    <option value="baseball">Baseball</option>
+                    <option value="tennis">Tennis</option>
+                    <option value="swimming">Swimming</option>
+                    <option value="rugby">Rugby</option>
+                    <option value="cricket">Cricket</option>
+                    <option value="football">Football</option>
+                    <option value="hockey">Hockey</option>
+                    <option value="volleyball">Volleyball</option>
+                  </select>
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="comments"><span class="label-text">What are your thoughts on global warming?:</span>
+                  <textarea id="comments" name="comments" rows="20" cols="50" placeholder="Enter your comments here..."></textarea>
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="password"><span class="label-text">Enter your password:</span>
+                  <input type="password" id="password" name="password" placeholder="Password" />
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="file-upload"><span class="label-text">Upload a file:</span>
+                  <input type="file" id="file-upload" name="file-upload"/>
+                </label>
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr><td><button type="submit">Submit</button></td></tr>
           </tfoot>
-        </table>
+        </table> 
       </form>
     </section>
-    <br>
+    <br />
     <section id="links">
       <aside>
         <h2>Student Resources</h2>
@@ -166,7 +166,7 @@
         </ul>
       </aside>
     </section>
-    <br>
+    <br />
     <a href="../index.html" id="hub-button">Back to Hub</a>
   </main>
   <footer>
