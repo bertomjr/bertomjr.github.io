@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: lightgray;
+    border: black 5px solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    border: white 3px solid;
+    margin: 1% 10%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color:lightslategrey;
+    border: black 2px solid;
+    border-radius: 5px;
+    padding: 2vh 2vw;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    border: black 2px solid;
+    padding: 2%;
+    border-radius: 5px;
+    margin: 2% 15%;
+
+}
+footer {
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    
+    
+}
+h2 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#aboutme {
+    grid-column: span 3;
+    grid-row: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    border: black 2px solid;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+    h2 {
+        background-color: lightsalmon;
+        border: white 3px solid;
+
+    }
+    p {
+        margin: 5px;
+        align-self: flex-start;
+    }
+}
+#courses {
+    display: flex;
+    grid-column: span 3;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    border: black 2px solid;
+    padding: 2%;
+    border-radius: 5px; 
+    h2 {
+        color: black;
+        background-color: lightsalmon;
+        border: white 3px solid;
+        margin-bottom: 2%;
+    }
+
+}
+#course-table{
+    border-collapse: separate;
+    border-spacing: 2px;
+    border: black 2px solid;
+    width: 100%;
+    height: 100%;
+}
+.status {
+    font-style: italic;
+}
+#course-table th, #course-table td {
+    border: whitesmoke 1px solid;
+    padding: 8px;
+    text-align: center;
+}
+#course-table th {
+    background-color: white;
+    border: solid black 2px;
+}
+#course-table td {
+    background-color: darkslategray;
+    border: solid black 2px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#valencia-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: darkred;
+    color: orange;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#valencia-button:hover {
+    background-color:orange;
+    color: darkred;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#hub-button {
+    grid-column: 1 / 3;
+    justify-self: start;
+    margin-left: 2px;
+    padding: 10px;
+    background-color: lightgrey;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight:500; 
+
+}
+#hub-button:hover {
+    background-color: darkgrey;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+a {
+    color: blue;
+    background-color: antiquewhite;
+    text-decoration: none;
+}
+a:active {
+    color: white;
+    background-color: slategray;
+}
+a:visited {
+    color: purple;
+    background-color: darkgray;
+}
+a:hover {
+    color: white;
+    background-color: darkblue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#links {
+    grid-column: span 3;
+    h2 {
+        background-color: lightsalmon;
+        border: white 3px solid;
+        margin-bottom: 2%;
+        align-self: center;
+    }
+    a {
+        justify-self: start;
+        font-size: 1em;
+        margin-bottom: 1%;
+        border-bottom: 2px solid black;
+    }
+    a:hover {
+        border-bottom: 2px solid white;
+    }
+    ul {
+        list-style-type: square;
+        padding-left: 20px;
+    }
+}
+#links aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media (max-width: 450px) {
+    #hub-button {
+        grid-column: 1 / -1; 
+        justify-self: center;     
+    }
+     main {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    #aboutme,
+    #courses,
+    #links {
+        grid-column: 1 / -1; 
+    }
+
+    #hub-button {
+        grid-column: 1 / -1;
+        justify-self: center;
+    }
+    header {
+        margin: 1% 2%;
+    }
+
+    aside {
+        margin: 2% 2%;
+    }
+}
+
+.forms {
+    position: relative;
+    border: solid black 2px;
+    margin: 2%;;
+    padding: 2%;
+    grid-column: span 3;
+    background-image: url("vc-logo1024x156.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 200px auto 
+}
+.forms::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.3); 
+    z-index: 0;
+}
+
+.forms > * {
+    position: relative;
+    z-index: 1;
+}
+#practice-form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#practice-form {
+    th {
+        background-color: darkred;
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
+
+    th, td {
+        border: 2px solid black;
+        padding: 1px;
+        width: 100%;
+    }
+    td {
+        text-align: left;
+        background-color: white;
+    }
+    textarea {
+        background-color: lightgoldenrodyellow;
+    }
+    button {
+        display: inline-block;
+        margin-top: 10px;
+        margin: 1%;
+        padding: 10px 2%;
+        background-color: darkred;
+        color: orange;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    button:hover {
+        background-color:orange;
+        color: darkred;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .label-text {
+        font-weight: 500;
+    }
+    
+}
+
+#practice-form table {
+    width: 100%;
+}
+#comments {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+    border: 3px solid black;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 650px;  /* optional, limits width */
+  margin: 0 auto;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+}
